@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songeets - Ur fvrt gaanasaathi!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="Logo.png" alt="Songeets">
+                Songeets
+            </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="SongList"></div>
+
+        <h1>Best of NCS - NO COPYRIGHT SONGS</h1>
+
+        <div class="SongItems">
+
+            <!-- SONG 1 -->
+            <div class="SongItem">
+                <img src="Images/1Cover.jpg" alt="Perfect">
+                <span class="SongListPlay">
+                    <span class="SongName">Perfect</span>
+                    <span class="timestamp">
+                        04:23
+                        <span class="SongPlayIcon">
+                            <span class="RowPlayIcon">
+                                <i class="fa-2x fa-solid fa-circle-play"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                            <span class="RowPauseIcon" style="display: none;">
+                                <i class="fa-2x fa-solid fa-circle-pause"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                        </span>
+                    </span>
+                </span>
+            </div>
+
+            <!-- SONG 2 -->
+            <div class="SongItem">
+                <img src="Images/2Cover.jpg" alt="End of Beginning">
+                <span class="SongListPlay">
+                    <span class="SongName">End of Beginning</span>
+                    <span class="timestamp">
+                        02:39
+                        <span class="SongPlayIcon">
+                            <span class="RowPlayIcon">
+                                <i class="fa-2x fa-solid fa-circle-play"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                            <span class="RowPauseIcon" style="display: none;">
+                                <i class="fa-2x fa-solid fa-circle-pause"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                        </span>
+                    </span>
+                </span>
+            </div>
+
+            <!-- SONG 3 -->
+            <div class="SongItem">
+                <img src="Images/3Cover.jpg" alt="Snowman">
+                <span class="SongListPlay">
+                    <span class="SongName">Snowman</span>
+                    <span class="timestamp">
+                        02:45
+                        <span class="SongPlayIcon">
+                            <span class="RowPlayIcon">
+                                <i class="fa-2x fa-solid fa-circle-play"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                            <span class="RowPauseIcon" style="display: none;">
+                                <i class="fa-2x fa-solid fa-circle-pause"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                        </span>
+                    </span>
+                </span>
+            </div>
+
+            <!-- SONG 4 -->
+            <div class="SongItem">
+                <img src="Images/4Cover.jpg" alt="CO2">
+                <span class="SongListPlay">
+                    <span class="SongName">CO2</span>
+                    <span class="timestamp">
+                        02:45
+                        <span class="SongPlayIcon">
+                            <span class="RowPlayIcon">
+                                <i class="fa-2x fa-solid fa-circle-play"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                            <span class="RowPauseIcon" style="display: none;">
+                                <i class="fa-2x fa-solid fa-circle-pause"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                        </span>
+                    </span>
+                </span>
+            </div>
+
+            <!-- SONG 5 -->
+            <div class="SongItem">
+                <img src="Images/5Cover.jpg" alt="I think they call this love">
+                <span class="SongListPlay">
+                    <span class="SongName">I think they call this love</span>
+                    <span class="timestamp">
+                        03:16
+                        <span class="SongPlayIcon">
+                            <span class="RowPlayIcon">
+                                <i class="fa-2x fa-solid fa-circle-play"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                            <span class="RowPauseIcon" style="display: none;">
+                                <i class="fa-2x fa-solid fa-circle-pause"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                        </span>
+                    </span>
+                </span>
+            </div>
+
+            <!-- SONG 6 -->
+            <div class="SongItem">
+                <img src="Images/6Cover.jpg" alt="Sailor song">
+                <span class="SongListPlay">
+                    <span class="SongName">Sailor song</span>
+                    <span class="timestamp">
+                        03:31
+                        <span class="SongPlayIcon">
+                            <span class="RowPlayIcon">
+                                <i class="fa-2x fa-solid fa-circle-play"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                            <span class="RowPauseIcon" style="display: none;">
+                                <i class="fa-2x fa-solid fa-circle-pause"
+                                   style="color: rgb(28, 31, 4);"></i>
+                            </span>
+                        </span>
+                    </span>
+                </span>
+            </div>
+
+        </div>
+
+        <div class="SongBanner"></div>
+    </div>
+
+    <!-- BOTTOM MUSIC PLAYER -->
+    <div class="bottom">
+
+        <div class="progress-area">
+            <span id="CurrentTime">0:00</span>
+            <input type="range" name="range"
+                   id="MyProgressBar" min="0" value="0" max="100">
+            <span id="Duration">0:00</span>
+        </div>
+
+        <div class="icons">
+            <button id="Previous" aria-label="Previous song">
+                <i class="fa-2x fa-solid fa-backward-step"
+                   style="color: rgb(28, 31, 4);"></i>
+            </button>
+
+            <button id="MasterPlay" aria-label="Play or pause">
+                <span id="PlayIcon">
+                    <i class="fa-2x fa-solid fa-circle-play"
+                       style="color: rgb(28, 31, 4);"></i>
+                </span>
+
+                <span id="PauseIcon" style="display: none;">
+                    <i class="fa-2x fa-solid fa-circle-pause"
+                       style="color: rgb(28, 31, 4);"></i>
+                </span>
+            </button>
+
+            <button id="Next" aria-label="Next song">
+                <i class="fa-2x fa-solid fa-forward-step"
+                   style="color: rgb(28, 31, 4);"></i>
+            </button>
+        </div>
+
+        <div class="SongInfo">
+            <img src="GIF.gif" width="20px" alt="" id="gif">
+            <span class="SongTitle" id="SongTitle"
+                  style="opacity: 0; transition: opacity 0.5s ease-in;">
+                Perfect - Ed Sheeran
+            </span>
+        </div>
+
+        <audio id="myAudio" src="Audios/1mp3.mp3"></audio>
+    </div>
+
+    <script src="https://kit.fontawesome.com/124d2cab00.js"
+            crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
